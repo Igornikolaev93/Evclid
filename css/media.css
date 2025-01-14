@@ -1,0 +1,441 @@
+
+@media (max-width: 1450px) {
+
+  .first__title{
+    font-size: 60px;
+    max-width: 80%;
+  }
+
+  .picture{
+    display: block;
+
+  }
+  .picture__image{
+    background-size: cover;
+  }
+
+  .about-picture__image{
+    margin-bottom: 32px;
+    border-radius: 32px;
+    width: 100%;
+  }
+
+  .consult{
+    max-width: 437px;
+    min-height: 689px;
+
+  }
+
+  .consult__image{
+    max-width: 537px;
+    min-height: 700px;
+
+  }
+
+  .question__descript{
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 1250px) {
+
+  .first__title{
+    font-size: 60px;
+    max-width: 100%;
+  }
+  .picture{
+    display: block;
+
+  }
+  .picture__image{
+    background-size: cover;
+  }
+
+  .about-picture__image{
+    margin-bottom: 32px;
+    border-radius: 32px;
+    width: 100%;
+  }
+
+  .consult{
+    max-width: 437px;
+    min-height: 689px;
+
+  }
+
+  .consult-right__item{
+    max-width: 100%;
+  }
+
+  .consult__image{
+    max-width: 437px;
+    min-height: 700px;
+
+  }
+
+  .question__descript{
+    min-width: 100%;
+  }
+
+  .footer__wrapper{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+  }
+
+  .footer-right{
+    display: none;
+  }
+}
+
+@media (max-width: 978px) {
+
+  .logo{
+    width: 150px;
+    height: 48px;
+}
+
+  .nav-list{
+    font-size: 16px;
+    padding: 24px;
+    gap: 40px;
+}
+
+  .first__title{
+    font-size: 50px;
+    max-width: 90%;
+    min-height: 100%;
+  }
+
+  .title-first{
+    padding-left: 40px;
+  }
+
+  .studies-second{
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+
+  .about-picture__image{
+    margin-bottom: 32px;
+    border-radius: 32px;
+    width: 100%;
+  }
+
+  .consult__image{
+    max-width: 100%;
+    min-height: 284px;
+    padding-bottom: 38px;
+  }
+
+  .consult{
+    max-width: 100%;
+    min-height: 100%;
+  }
+
+  .consult-right__item{
+    max-width: 100%;
+  }
+
+  .question__descript{
+    max-width: 100%;
+  }
+
+  .footer-left__list{
+    display: none;
+}
+  .footer__wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: first baseline;
+}
+  .footer-center{
+    padding-bottom: 50px;
+}
+
+  .footer-left__image{
+    padding-top: 16px;
+}
+}
+
+@media (max-width: 850px) {
+
+  .first__title{
+    font-size: 40px;
+    max-width: 100%;
+    min-height: 100%;
+  }
+
+  .logo{
+    width: 150px;
+    height: 48px;
+}
+
+  .nav-list{
+    font-size: 16px;
+    padding: 24px;
+    gap: 40px;
+
+}
+
+  .about-picture__image{
+    margin-bottom: 32px;
+    border-radius: 32px;
+    max-width: 100%;
+}
+
+  .consult-right__item{
+    max-width: 100%;
+    padding: 0;
+
+}
+
+  .consult-right__descript{
+    max-width: 100%;
+}
+
+  .question__descript{
+    max-width: 100%;
+}
+}
+
+@media(max-width:698px){
+
+  .header__container{
+    align-items: center;
+    padding-top: 17px;
+  }
+
+  .title-first{
+    height: 100%;
+    padding-right: 21px;
+  }
+
+  .first__title{
+    font-size: 40px;
+  }
+
+  .consult-right__item{
+    display: block;
+    border: none;
+  }
+
+  .consult-right__descript{
+    margin: 0;
+  }
+
+  .footer__wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+    padding: 0 0 40px 0;
+  }
+
+  .about-picture__image{
+    display: block;
+    width: 100%;
+    background: #fff;
+    min-height: unset;
+  }
+
+  .about-picture__image::before{
+    content: "";
+    display: block;
+    width: 100%;
+    padding-bottom: 56.25%;
+    background: #000 center /cover url(../img/Rec2.jpg);
+    border-radius: 32px;
+    font-weight: 200;
+  }
+
+  .picture__image{
+    display: block;
+    background-image: none;
+    color: #000;
+    padding: 0;
+    margin-top: 8px;
+  }
+
+  .but{
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    color:#f90;
+    text-align: center;
+    width: 162px;
+    padding: 12px 44px;
+    display: block;
+    margin-top: 12px;
+
+  }
+
+  .image-item{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2;
+  }
+
+  .footer-left{
+    align-items: center;
+  }
+
+  .footer-center__form{
+    gap: 25px;
+}
+
+  .footer-center__title{
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+  .footer-center__buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo{
+    order: 1;
+  }
+  .last{
+    order: 2;
+  }
+
+  .nav-list{
+    order: 3;
+  }
+}
+
+@media(max-width:529px){
+
+  .first__container{
+    height: 50%;
+  }
+
+  .title-first{
+    padding-left: 22px;
+    padding-right: 21px;
+
+  }
+
+  .first__title{
+    font-size: 30px;
+    max-width: 100%;
+    height: 100%;
+    margin-bottom: 6px;
+  }
+
+  .butt{
+    max-width: 100%;
+  }
+
+  .frame__image{
+    width: 64px;
+    height: 49px;
+  }
+
+  .first__descript{
+    font-size: 18px;
+    margin-bottom: 60px;
+
+  }
+
+  .nav-list{
+    max-width: 100%;
+    gap:22px;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    justify-content: left;
+    overflow-x: scroll;
+
+  }
+
+  .question__descript{
+    border: none;
+    padding: 0;
+    max-width: 100%;
+    min-height: 100%;
+  }
+  .question__descript__title{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .question__descript__answer{
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+}
+
+@media (max-width:386px){
+
+  .first__container{
+    height: 100%;
+  }
+
+  .first__title{
+    font-size: 18px;
+    font-weight: 800;
+    max-width: 100%;
+    height: 100%;
+    text-align: center;
+
+  }
+
+  .butt{
+    min-width: 162px;
+    min-height: 41px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 18px 37px;
+
+  }
+  .title-first{
+    padding-right: 20px;
+  }
+
+  .first__descript{
+    margin-bottom: 32px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .consult-butt{
+    max-width: 357px;
+    gap:10px
+  }
+
+  .consult-butt__item{
+    max-width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 12px 44px;
+  }
+
+  .item-right{
+    padding: 12px 32px;
+  }
+
+  .question__descript__title{
+    font-size: 18px;
+  }
+
+  .question__descript__answer{
+    font-size: 14px;
+  }
+
+  .first__descript{
+    font-size: 12px;
+    max-width: 100%;
+  }
+
+  .footer-center__title{
+    font-size: 24px;
+  }
+}
+
